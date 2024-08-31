@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.animation {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 189, 189);
+}
+
+.bubble {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 10%;
+}
+
+.bubble::before {
+    content: "";
+    display: block;
+    width: 17vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+@keyframes bubble {
+    from {
+        bottom: -20%;
+    }
+
+    to {
+        bottom: 100%;
+    }
+}
+
+.bubble_1 {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 3%;
+
+}
+
+.bubble_1::before {
+    content: "";
+    display: block;
+    width: 19vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+@keyframes bubble_1 {
+    from {
+        bottom: -20%;
+    }
+
+    to {
+        bottom: 100%;
+    }
+}
+
+.bubble_2 {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 3%;
+}
+
+.bubble_2::before {
+    content: "";
+    display: block;
+    width: 19vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.bubble_3 {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 3%;
+}
+
+.bubble_3::before {
+    content: "";
+    display: block;
+    width: 19vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.bubble_4 {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 3%;
+}
+
+.bubble_4::before {
+    content: "";
+    display: block;
+    width: 19vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.bubble_5 {
+    height: 18vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(17, 212, 212);
+    box-shadow: 1px 1px 7px rgb(74, 170, 170);
+    animation: bubble_1 linear 6s infinite;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20%;
+    left: 3%;
+}
+
+.bubble_5::before {
+    content: "";
+    display: block;
+    width: 19vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
