@@ -103,7 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: -20%;
-    left: 3%;
+    left: 20%;
 }
 
 .bubble_2::before {
@@ -131,7 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: -20%;
-    left: 3%;
+    left: 30%;
 }
 
 .bubble_3::before {
@@ -159,7 +159,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: -20%;
-    left: 3%;
+    left: 50%;
 }
 
 .bubble_4::before {
@@ -187,7 +187,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: -20%;
-    left: 3%;
+    left: 75%;
 }
 
 .bubble_5::before {
